@@ -25,7 +25,7 @@ const road = new Road(carCanvas.width/2,carCanvas.width*0.9);
 //lanes are array-> 4 lanes so lanes 0,1,2,3 -> 3 lanes 0,1,2
 //const car=new Car(road.getLaneCenter(1),100,30,50,"AI");
 //1000 or 100 for the AMOUTN OF CARS
-const N = 1;
+const N = 1000;
 const cars = generateCars(N);
 let bestCar = cars[0];
 
